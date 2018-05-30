@@ -1,0 +1,20 @@
+﻿1. สร้าง โฟล์เดอร์สำหรับ blynk server บน RPI ตัวอย่างสร้างไไว้ที่ /home/pi/BlynkServer
+2. สร้างไฟล์ชื่อ mail.properties ( ดาวน์โหลด จาก git นี้ไปใช้ได้เลย ) ใน /home/pi/BlynkServer
+3. เปลี่ยน สองบรรทัดนี้เป็น email  และ password email ของท่านเอง
+
+mail.smtp.username=yourmail@gmail.com
+
+mail.smtp.password=yourmailpassword
+
+4. สร้างไฟล์ชื่อ server.properties ( ดาวน์โหลด จาก git นี้ไปใช้ได้เลย ) ใน /home/pi/BlynkServer
+5. ทำตามขั้นตอนการติดตั้งตามลิงค์นี้ https://github.com/blynkkk/blynk-server#blynk-server
+
+6. ติดตั้ง แอป blynk ลงมือถือ แล้วเปิดแอป
+7. ที่หน้าจอแรกกด create new account
+8. ใส่ email และ password สำหรับสร้าง account ใหม่
+9. กดปุ่ม select server ที่เป็นรูปลูกศรชี้กล่องที่มีปุ่มสามปุ่ม
+10. slide ไปที่ custom แล้ว ใส่ ip ของ server RPI
+11. กด OK แล้วกด create new account
+12. จะได้ user ใหม่บน server แล้ว ลองเปิดดู โดย พิมพ์  https://serverip:9443/admin ( เปลียน serverip เป็น ip ของ rpi server) ใส่ admin@blynk.cc ที่ช่อง user name และใส่ admin ในช่อง password 
+13.  จะเห็น user ใหม่ ที่สมัครใน app blynk 
+14. สร้างโปรเจคใหม่ใน blynk ได้เลยครับ ขอให้สนุกกันทุกท่าน
